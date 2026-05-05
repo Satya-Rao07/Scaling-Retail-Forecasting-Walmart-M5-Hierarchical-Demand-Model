@@ -1,7 +1,7 @@
 # M5 Hierarchical Demand Forecasting
 
 Hierarchical forecasting approach for the Walmart M5 dataset using XGBoost, 
-achieving a 20.8% improvement over a seasonal naive baseline.
+achieving a 21.1% improvement over a seasonal naive baseline.
 
 ## Key Features
 - Hierarchical aggregation (dept+store → item level forecasting)
@@ -11,9 +11,9 @@ achieving a 20.8% improvement over a seasonal naive baseline.
 - Price momentum and lag-based demand features
 
 ## Results
-- **Aggregate wMAPE:** 13% (dept+store level)
+- **Aggregate wMAPE:** 8.89% (dept+store level)
 - **Item-level RMSE:** 2.24 units
-- **Improvement:** 20.8% better than lag-28 naive baseline
+- **Improvement:** 21.1% better than lag-28 naive baseline
 
 ## How to Run
 1. Download M5 dataset from Kaggle
@@ -22,7 +22,7 @@ achieving a 20.8% improvement over a seasonal naive baseline.
 
 ## Key Insights
 - Hierarchical aggregation significantly improves stability of item-level forecasts
-- Lag features (especially 7/28-day lags) capture strong seasonality
+- Lag and date features capture strong seasonality
 - Cleaning stockouts reduces artificial demand distortion
 - Model performance is strongest at aggregated levels
 
