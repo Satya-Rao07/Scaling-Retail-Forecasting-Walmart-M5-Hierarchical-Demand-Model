@@ -5,7 +5,7 @@ achieving a 20.8% improvement over a seasonal naive baseline.
 
 ## Key Features
 - Hierarchical aggregation (dept+store → item level forecasting)
-- XGBoost regression model with RMSE objective
+- XGBoost regression model, with Tweedie loss for zero-inflated sales data
 - Stockout-aware training data cleaning
 - Sample weighting to emphasize recent observations
 - Price momentum and lag-based demand features
