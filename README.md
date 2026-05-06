@@ -67,7 +67,7 @@ The goal of this project is to:
 
 ## 📈 Results
 - **Aggregate wMAPE:** 8.89% (dept-store level)  
-- **Item-level RMSE:** 2.24 units  
+- **Item-level RMSE:** 2.23 units  
 - **Performance Gain:** 21.1% improvement over lag-28 seasonal naive baseline  
 
 These results highlight the effectiveness of combining hierarchical aggregation with machine learning models.
