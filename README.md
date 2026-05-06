@@ -115,8 +115,7 @@ These results highlight the effectiveness of combining hierarchical aggregation 
 ---
 
 ## 👤 Author
-**Satya Rao**  
-Supply Chain Professional (CSCP) focused on demand planning, forecasting, and data-driven decision-making  
+Satya Rao — Supply Chain Professional (CSCP) focused on data-driven demand planning, forecasting, and decision analytics
 
 ---
 
